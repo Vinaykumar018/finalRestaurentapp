@@ -12,7 +12,7 @@ import Testimonal from './Components/Testimonal'
 import Login from './Components/Login';
 import Signup from './Components/Signup';
 import Card from './Components/Card';
-// import PaymentForm from './Components/Checkout';
+import Paymentform from './Components/Checkout';
 
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -34,14 +34,16 @@ const App = () => {
         <Route path="/service" element={<Service />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/card" element={<Card />} />
-        <Route path="/team" element={<Team/>} />
+        <Route path="/team" element={<Team />} />
         <Route path="/booking" element={<Booking></Booking>}/>
         <Route path="/menu" element={<Menu />} />
-        <Route path="/testimonial" element={<Testimonal/>} />
-
+        <Route path="/testimonial" element={<Testimonal />} />
+        <Route path="/checkout" element={<Paymentform />} />
       </Routes>
     </Router>
   );
 };
 
 export default App;
+
+// npm run dev

@@ -1,0 +1,46 @@
+#select-address, #selected-address{
+    height: 218px;
+}
+
+.nav .nav-link{
+    cursor: pointer;
+}
+
+.active-link {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    border-color: #007bff; 
+}
+
+.position-relative, .pay, .checkIcon {
+    position: relative;
+}
+
+#checkIcon{
+    right:10px;
+}
+
+.icon-container, .icon-container1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;  
+    color: #6c757d; 
+}
+
+.icon-container{
+    right: 10px; 
+}
+
+.icon-container1{
+    right: 80px;
+}
+
+.arrow{
+    position: absolute;
+    right: 20px;
+}
+
+
+
+  

@@ -17,8 +17,6 @@ const Home = () => {
 
     return (
         
-      
-       
         <div className="container-fluid bg-white p-0 ">
           {/*spinner start */}
           {loading && (

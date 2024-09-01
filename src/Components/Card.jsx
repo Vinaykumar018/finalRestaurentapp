@@ -49,7 +49,7 @@ const Booking = () => {
                   <Link to="/booking" className="dropdown-item active">Booking</Link>
                   <Link to="/team" className="dropdown-item">Our Team</Link>
                   <Link to="/testimonial" className="dropdown-item">Testimonial</Link>
-                  <Link to="/card" className="dropdown-item">Cart</Link>
+                  <Link to="/card" className="dropdown-item">View Cart</Link>
                 </div>
               </div>
               <Link to="/contact" className="nav-item nav-link">Contact</Link>
@@ -141,7 +141,7 @@ const Booking = () => {
                                 <b className='col-md-6 d-flex justify-content-end'>{0}</b>
                             </div>
                         </div>
-                        <button className='btn btn-primary my-3'>PROCEED TO CHECKOUT</button>
+                        <Link to="/checkout" className="btn btn-primary my-3">PROCEED TO CHECKOUT</Link>
                     </div>
                     <div className="col-md-4 cart-promocode px-2" style={{marginTop:"-35px"}}>
                         <p>If you have a promo code, Enter it here</p>

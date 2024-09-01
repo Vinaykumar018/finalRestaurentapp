@@ -1,0 +1,6 @@
+# for adding fontawesome icon
+npm install @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons @fortawesome/fontawesome-svg-core
+
+# for map
+npm install @react-google-maps/api
+

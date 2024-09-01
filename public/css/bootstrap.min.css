@@ -7790,6 +7790,10 @@ textarea.form-control-lg {
     color: #6c757d !important
 }
 
+.text-tertiary {
+    color: #007bff !important
+}
+
 .text-success {
     color: #198754 !important
 }
